@@ -1,0 +1,12 @@
+{
+  "name": "eliyas-npm-package-new",
+  "version": "1.0.3",
+  "description": "It is a testing package for the Package development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["npm", "Package", "Greeting"],
+  "author": "Mohamed Eliyas S.",
+  "license": "ISC"
+}
