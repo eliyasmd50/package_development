@@ -1,0 +1,25 @@
+Pre-Requesties:
+1. Need to have node installed
+2. Need to confirm about the npm version
+
+Steps to publish NPM package:
+1. npm login (In CLI)
+2. create the folder and package to publish in npm(npm init and folder creation)
+3. npm search package_name(If the name is not came up in the list we can publish our SDK)
+4. npm publish(To pubish the package).
+
+Usage:
+5. we can use the package Now
+
+Update and Versioning:
+6. change the package version name in package.json file
+7. npm publish(Again to republish it).
+
+We can unpublish the package if package is not needed:
+8. npm unpublish my-package-name --force
+9. change the name in the package json as @your_name/package_name
+10. npm publish
+11. npm deprecate my-package "⚠️ This package is now available as @your-scope/my-package. Please update!"
+
+If we need to exclude test files
+12. create .npmignore file and add all the folders and files which needs to exclude when pushng the code to the package
